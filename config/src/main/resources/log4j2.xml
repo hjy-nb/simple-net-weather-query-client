@@ -52,13 +52,11 @@
         <AsyncLogger name="SYSTEM" level="INFO" additivity="false" includeLocation="false">
             <AppenderRef ref="Console"/>
             <AppenderRef ref="RollingSystem"/>
-            <AppenderRef ref="ErrorFile"/>
         </AsyncLogger>
 
         <AsyncLogger name="BUSINESS" level="INFO" additivity="false" includeLocation="false">
             <AppenderRef ref="Console"/>
             <AppenderRef ref="RollingBusiness"/>
-            <AppenderRef ref="ErrorFile"/>
         </AsyncLogger>
 
         <AsyncLogger name="ERROR" level="ERROR" additivity="false" includeLocation="false">

@@ -10,7 +10,7 @@
   <name>simple-net-weather-query-client</name>
   <url> </url>
   <modules>
-    <module>data-model-design</module>
+    <module>dto</module>
     <module>clients</module>
     <module>parser</module>
     <module>exceptions</module>

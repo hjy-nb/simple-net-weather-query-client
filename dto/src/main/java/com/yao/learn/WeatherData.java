@@ -1,12 +1,9 @@
 package com.yao.learn;
 
 import java.time.LocalDateTime;
-import java.time.format.DateTimeParseException;
 import java.util.ArrayList;
 import java.util.List;
-
 import org.slf4j.Logger;
-import com.yao.learn.LoggerManagement;
 
 public class WeatherData {
     private static final Logger LOGGER = LoggerManagement.getBusinessLogger();
@@ -16,34 +13,43 @@ public class WeatherData {
     private double windSpeed ;                         // 风速(m/s)
     private int visibility;                             // 能见度(km)
     private LocalDateTime updateTime;                   // 更新时间
-    private double feelsLike;                     // 体感温度
+    private double feelsLike;           // 体感温度
+    private boolean isTure= true;
 
     public WeatherData() {}
 
     public WeatherData(double temperature, int humidity, String weather, double windSpeed, int visibility,
             LocalDateTime updateTime, double feelsLike) {
-        LOGGER.info("开始记录数据：天气={}, 更新时间={}",weather,updateTime.toString());
 
-        List<String> errors = isValid(temperature, humidity, weather, windSpeed, visibility, updateTime, feelsLike);
+        LOGGER.info("开始记录数据：温度={}, 湿度={}, 天气={}, 风速={}, 能见度={}, 更新时间={}, 体感温度={}",
+                 temperature, humidity, weather, windSpeed, visibility, updateTime, feelsLike);
+
+        List<String> errors = checkErrors(temperature, humidity, weather, windSpeed, visibility, updateTime, feelsLike);
 
         if (!errors.isEmpty()) {
-            LOGGER.error("数据记录失败：{}", String.join(", ", errors));
-            throw new IllegalArgumentException("数据记录失败：" + String.join(", ", errors));
+            LOGGER.warn("数据记录失败,异常原因如下：{}", String.join(", ", errors));
+            isTure = false;
+
         }
+        else {
+            this.temperature = temperature;
+            this.humidity = humidity;
+            this.weather = weather;
+            this.windSpeed = windSpeed;
+            this.visibility = visibility;
+            this.updateTime = updateTime;
+            this.feelsLike = feelsLike;
 
-        this.temperature = temperature;
-        this.humidity = humidity;
-        this.weather = weather;
-        this.windSpeed = windSpeed;
-        this.visibility = visibility;
-        this.updateTime = updateTime;
-        this.feelsLike = feelsLike;
-
-        LOGGER.info("数据记录成功");
+            LOGGER.info("数据记录成功");
+        }
     }
 
+    // 数据正确性验证
+    public boolean isValid() {
+        return isTure;
+    }
     //验证数据范围
-    public List<String> isValid(double temperature, int humidity, String weather, double windSpeed, int visibility,LocalDateTime updateTime, double feelsLike) {
+    private List<String> checkErrors(double temperature, int humidity, String weather, double windSpeed, int visibility,LocalDateTime updateTime, double feelsLike) {
         List<String> errors = new ArrayList<>();
         if (!isTemperatureValid(temperature)) {
             errors.add(String.format("温度: %.1f 异常", temperature));
@@ -100,7 +106,7 @@ public class WeatherData {
 
     //验证天气
     public boolean isWeatherValid(String weather) {
-        return weather != null && weather.matches("[a-zA-Z]+");
+        return weather != null && weather.matches("[a-zA-Z\\u4e00-\\u9fa5]+");
     }
 
     //获取格式化后的信息
