@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import org.slf4j.Logger;
 
+//天气数据
 public class WeatherData {
     private static final Logger LOGGER = LoggerManagement.getBusinessLogger();
     private double temperature;                     // 温度(℃)
@@ -16,18 +17,16 @@ public class WeatherData {
     private double feelsLike;           // 体感温度
     private boolean isTure= true;
 
-    public WeatherData() {}
-
     public WeatherData(double temperature, int humidity, String weather, double windSpeed, int visibility,
             LocalDateTime updateTime, double feelsLike) {
 
-        LOGGER.info("开始记录数据：温度={}, 湿度={}, 天气={}, 风速={}, 能见度={}, 更新时间={}, 体感温度={}",
+        LOGGER.info("开始记录WeatherData：温度={}, 湿度={}, 天气={}, 风速={}, 能见度={}, 更新时间={}, 体感温度={}",
                  temperature, humidity, weather, windSpeed, visibility, updateTime, feelsLike);
 
         List<String> errors = checkErrors(temperature, humidity, weather, windSpeed, visibility, updateTime, feelsLike);
 
         if (!errors.isEmpty()) {
-            LOGGER.warn("数据记录失败,异常原因如下：{}", String.join(", ", errors));
+            LOGGER.warn("数据记录失败,异常原因如下：{}\n", String.join(", ", errors));
             isTure = false;
 
         }
@@ -40,7 +39,7 @@ public class WeatherData {
             this.updateTime = updateTime;
             this.feelsLike = feelsLike;
 
-            LOGGER.info("数据记录成功");
+            LOGGER.info("数据记录成功\n");
         }
     }
 
@@ -116,33 +115,6 @@ public class WeatherData {
     }
 
 // ... existing code ...
-    public void setTemperature(double temperature) {
-        this.temperature = temperature;
-    }
-
-    public void setHumidity(int humidity) {
-        this.humidity = humidity;
-    }
-
-    public void setWeather(String weather) {
-        this.weather = weather;
-    }
-
-    public void setWindSpeed(double windSpeed) {
-        this.windSpeed = windSpeed;
-    }
-
-    public void setVisibility(int visibility) {
-        this.visibility = visibility;
-    }
-
-    public void setFeelsLike(double feelsLike) {
-        this.feelsLike = feelsLike;
-    }
-
-    public void setUpdateTime(LocalDateTime updateTime) {
-        this.updateTime = updateTime;
-    }
 
     public double getTemperature() {
         return temperature;

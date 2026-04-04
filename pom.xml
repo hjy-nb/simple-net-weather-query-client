@@ -29,10 +29,26 @@
     <fastjson2.version>2.0.61</fastjson2.version>
     <config.version>1.0-SNAPSHOT</config.version>
     <disruptor.version>3.4.4</disruptor.version>
+    <dto.version>1.0-SNAPSHOT</dto.version>
+    <parser.version>1.0-SNAPSHOT</parser.version>
   </properties>
 
   <dependencyManagement>
     <dependencies>
+      <dependency>
+        <groupId>com.yao.learn</groupId>
+        <artifactId>parser</artifactId>
+        <version>${parser.version}</version>
+        <scope>compile</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>com.yao.learn</groupId>
+        <artifactId>dto</artifactId>
+        <version>${dto.version}</version>
+        <scope>compile</scope>
+      </dependency>
+
       <dependency>
         <groupId>com.yao.learn</groupId>
         <artifactId>config</artifactId>

@@ -4,6 +4,8 @@ import org.slf4j.Logger;
 import java.util.ArrayList;
 import java.util.List;
 
+
+//位置信息
 public class Location {
     private static final Logger LOGGER = LoggerManagement.getBusinessLogger();
     private String cityName;               //城市名称
@@ -14,16 +16,13 @@ public class Location {
     private String timezone;               // 时区
     private boolean isValid = true;
 
-    public Location() {
-    }
-
     public Location(String cityName, String cityId, String country, double longitude, double latitude, String timezone) {
 
-        LOGGER.info("开始记录数据：城市={}, 经度={}, 纬度={}, 时区={}", cityName, longitude, latitude, timezone);
+        LOGGER.info("开始记录Location：城市={}, 经度={}, 纬度={}, 时区={}", cityName, longitude, latitude, timezone);
         List<String> errors = checkErrors(cityName, cityId, country, longitude, latitude, timezone);
 
         if (!errors.isEmpty()) {
-            LOGGER.warn("数据记录失败,异常原因如下：{}", String.join(", ", errors));
+            LOGGER.warn("数据记录失败,异常原因如下：{}\n", String.join(", ", errors));
             isValid = false;
         }
         else{
@@ -34,7 +33,7 @@ public class Location {
             this.latitude = latitude;
             this.timezone = timezone;
 
-            LOGGER.info("数据记录成功");
+            LOGGER.info("数据记录成功\n");
         }
     }
 
@@ -102,34 +101,6 @@ public class Location {
     public String toFormattedString() {
         return String.format("城市名称：%s | 城市ID：%s | 国家：%s | 经度：%.1f | 纬度：%.1f | 时区：%s",
             cityName, cityId, country, longitude, latitude, timezone);
-    }
-
-    public void setCityName(String cityName) {
-        this.cityName = cityName;
-    }
-
-    public void setCityId(String cityId) {
-        this.cityId = cityId;
-    }
-
-    public void setCountry(String country) {
-        this.country = country;
-    }
-
-    public void setLongitude(double longitude) {
-        this.longitude = longitude;
-    }
-
-    public void setLatitude(double latitude) {
-        this.latitude = latitude;
-    }
-
-    public void setTimezone(String timezone) {
-        this.timezone = timezone;
-    }
-
-    public void setValid(boolean valid) {
-        isValid = valid;
     }
 
     public String getCityName() {
