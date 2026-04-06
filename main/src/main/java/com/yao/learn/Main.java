@@ -13,7 +13,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 //天气数据在https://mf4ky4q37p.re.qweatherapi.com/v7/weather/now 基础url下  -》获取实时天气数据
 //城市信息在https://mf4ky4q37p.re.qweatherapi.com/v7/city/lookup 获取
-//获取json响应体中字段与自定义字段名不一致，用jsonfield注解统一
+//获取json响应体中字段与自定义字段名不一致，用jsonfield注解统一，反序列化时只能用注解指定的名称。
 public class Main {
     private static final Logger BUSINESS_LOGGER = LoggerManagement.getBusinessLogger();
     private static final Logger ERROR_LOGGER = LoggerManagement.getErrorLogger();

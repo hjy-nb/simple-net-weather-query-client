@@ -64,7 +64,7 @@ public class WeatherResponseParser {
 
     //提取天气数据Json对象
     public JSONObject extractWeatherDataJson(JSONObject jsonObj) {
-        return jsonObj.getJSONObject("data");   //从JSON对象中获取嵌套的JSONObject子对象，也就是类中其他类对象也解析成SONObject对象。
+        return jsonObj.getJSONObject("now");   //从JSON对象中获取嵌套的JSONObject子对象，也就是类中其他类对象也解析成SONObject对象。
     }
 
     //提取位置信息Json对象

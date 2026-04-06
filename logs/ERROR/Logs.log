@@ -345,3 +345,7 @@ java.lang.IllegalArgumentException: 无效的国家名称
 	at com.yao.learn.Main.run(Main.java:146)
 	at com.yao.learn.Main.runMain(Main.java:90)
 	at com.yao.learn.Main.main(Main.java:63)
+16:58:24.947 [main] ERROR ERROR - JsonParserHelper不能为空
+17:04:31.639 [main] ERROR ERROR - JsonParserHelper不能为空
+17:08:29.643 [main] ERROR ERROR - JsonParserHelper不能为空
+17:16:53.038 [main] ERROR ERROR - JsonParserHelper不能为空

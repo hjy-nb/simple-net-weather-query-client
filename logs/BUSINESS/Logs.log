@@ -1373,3 +1373,204 @@
 16:50:27.441 [main] INFO  BUSINESS - 开始显示统计信息
 16:50:27.444 [main] INFO  BUSINESS - 开始关闭资源
 16:50:27.445 [main] INFO  BUSINESS - 关闭资源完成
+16:58:23.595 [main] INFO  BUSINESS - 开始记录Location：城市=上海, 经度=121.5, 纬度=31.0, 时区=Asia/Shanghai
+16:58:23.596 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：国家: *** 错误
+
+16:58:23.609 [main] INFO  BUSINESS - 开始记录WeatherData：温度=25.0, 湿度=60, 天气=晴, 风速=10.0, 能见度=100, 更新时间=2023-05-01T12:00:00, 体感温度=28.0
+16:58:23.610 [main] INFO  BUSINESS - 数据记录成功
+
+16:58:23.617 [main] INFO  BUSINESS - 开始记录WeatherData：温度=2500000.0, 湿度=60000000, 天气=晴, 风速=10.0, 能见度=100, 更新时间=2023-05-01T12:00:00, 体感温度=28.0
+16:58:23.618 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：温度: 2500000.0 异常, 湿度: 60000000 异常
+
+16:58:23.618 [main] INFO  BUSINESS - 开始记录Location：城市=上海**, 经度=121.5, 纬度=31.0, 时区=Asia/Shanghai
+16:58:23.618 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：城市: 上海** 错误
+
+16:58:23.618 [main] INFO  BUSINESS - 开始记录WeatherResponse：状态码=20000, 状态消息=成功
+16:58:23.619 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：天气: null 错误, 更新时间错误为null
+
+16:58:23.619 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：城市: null 错误, 城市ID: null 错误, 国家: null 错误, 时区: null 错误
+
+16:58:23.619 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：数据无效：WeatherData无效, 数据无效：Location无效, 状态码: 20000 错误
+
+16:58:24.725 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+16:58:24.729 [main] INFO  BUSINESS - 开始加载配置文件
+16:58:24.730 [main] INFO  BUSINESS - 加载配置文件成功
+
+16:58:24.730 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+16:58:24.750 [main] WARN  BUSINESS - 缺少必要字段：temperature
+16:58:24.759 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+16:58:24.759 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+16:58:24.847 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+16:58:24.847 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+16:58:24.850 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+16:58:24.850 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+16:58:24.852 [main] INFO  BUSINESS - 开始记录WeatherData：温度=25.5, 湿度=60, 天气=晴, 风速=3.2, 能见度=10, 更新时间=2023-05-01T12:00:00, 体感温度=26.0
+16:58:24.852 [main] INFO  BUSINESS - 数据记录成功
+
+16:58:24.896 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+16:58:24.896 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+16:58:24.898 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+16:58:24.898 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+16:58:24.899 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+16:58:24.899 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+16:58:24.901 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+16:58:24.901 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+16:58:24.902 [main] INFO  BUSINESS - 设置默认字段值：temperature
+16:58:24.902 [main] INFO  BUSINESS - 设置默认字段值：humidity
+16:58:24.903 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+16:58:24.904 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+16:58:24.905 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+16:58:24.906 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+16:58:24.908 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+16:58:24.908 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+16:58:24.914 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+16:58:24.915 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+16:58:24.915 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+16:58:24.927 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：天气: null 错误, 更新时间错误为null
+
+16:58:24.928 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+16:58:24.929 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+16:58:24.929 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+16:58:24.930 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+16:58:24.930 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+16:58:24.930 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+16:58:24.931 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+16:58:24.931 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+16:58:24.931 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+16:58:24.937 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+16:58:24.937 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+16:58:24.937 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+16:58:24.942 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+16:58:24.942 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+16:58:24.942 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+16:58:24.943 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+16:58:24.943 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+16:58:24.943 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+16:58:24.944 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：城市: null 错误, 城市ID: null 错误, 时区: null 错误
+
+16:58:24.945 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+16:58:24.945 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+16:58:24.945 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+16:58:24.947 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+16:58:24.947 [main] ERROR BUSINESS - 初始化WeatherResponseParser失败
+16:58:24.948 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+16:58:24.948 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+16:58:24.948 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+16:58:24.949 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+16:58:24.949 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+16:58:24.949 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:04:31.462 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:04:31.465 [main] INFO  BUSINESS - 开始加载配置文件
+17:04:31.465 [main] INFO  BUSINESS - 加载配置文件成功
+
+17:04:31.468 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:04:31.468 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:04:31.589 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：天气: null 错误, 更新时间错误为null
+
+17:04:31.602 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:04:31.602 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:04:31.602 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:04:31.604 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:04:31.604 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:04:31.604 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:04:31.607 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:04:31.607 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:04:31.607 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:04:31.614 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:04:31.614 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:04:31.614 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:04:31.633 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:04:31.633 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:04:31.633 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:04:31.634 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:04:31.635 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:04:31.635 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:04:31.636 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：城市: null 错误, 城市ID: null 错误, 时区: null 错误
+
+17:04:31.638 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:04:31.638 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:04:31.638 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:04:31.639 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:04:31.639 [main] ERROR BUSINESS - 初始化WeatherResponseParser失败
+17:04:31.640 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:04:31.640 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:04:31.640 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:04:31.641 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:04:31.641 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:04:31.641 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:08:29.478 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:08:29.482 [main] INFO  BUSINESS - 开始加载配置文件
+17:08:29.483 [main] INFO  BUSINESS - 加载配置文件成功
+
+17:08:29.483 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:08:29.483 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:08:29.608 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:08:29.608 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:08:29.608 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:08:29.610 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:08:29.611 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:08:29.611 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:08:29.614 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:08:29.614 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:08:29.614 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:08:29.623 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:08:29.623 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:08:29.623 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:08:29.637 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:08:29.637 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:08:29.637 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:08:29.639 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:08:29.639 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:08:29.639 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:08:29.641 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:08:29.641 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:08:29.641 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:08:29.643 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:08:29.643 [main] ERROR BUSINESS - 初始化WeatherResponseParser失败
+17:08:29.644 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:08:29.644 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:08:29.644 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:08:29.652 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:08:29.652 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:08:29.652 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:10:45.731 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:10:45.733 [main] INFO  BUSINESS - 开始加载配置文件
+17:10:45.734 [main] INFO  BUSINESS - 加载配置文件成功
+
+17:10:45.736 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:10:45.737 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:16:52.876 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:16:52.880 [main] INFO  BUSINESS - 开始加载配置文件
+17:16:52.880 [main] INFO  BUSINESS - 加载配置文件成功
+
+17:16:52.880 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:16:52.881 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:16:53.005 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:16:53.005 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:16:53.005 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:16:53.008 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:16:53.008 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:16:53.008 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:16:53.011 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:16:53.011 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:16:53.011 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:16:53.018 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:16:53.018 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:16:53.018 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:16:53.033 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:16:53.033 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:16:53.033 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:16:53.035 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:16:53.035 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:16:53.035 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:16:53.037 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:16:53.037 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:16:53.037 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:16:53.038 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:16:53.038 [main] ERROR BUSINESS - 初始化WeatherResponseParser失败
+17:16:53.039 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:16:53.039 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:16:53.039 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:16:53.040 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:16:53.041 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:16:53.041 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
