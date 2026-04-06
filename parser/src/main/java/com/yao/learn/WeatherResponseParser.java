@@ -57,20 +57,6 @@ public class WeatherResponseParser {
         return parserHelper.getInt(jsonObj, "code", 0);
     }
 
-    //提取状态消息
-    public String extractStatusMessage(JSONObject jsonObj) {
-        return parserHelper.getString(jsonObj, "message", "");
-    }
-
-    //提取天气数据Json对象
-    public JSONObject extractWeatherDataJson(JSONObject jsonObj) {
-        return jsonObj.getJSONObject("now");   //从JSON对象中获取嵌套的JSONObject子对象，也就是类中其他类对象也解析成SONObject对象。
-    }
-
-    //提取位置信息Json对象
-    public JSONObject extractLocationJson(JSONObject jsonObj) {
-        return jsonObj.getJSONObject("location");
-    }
 
     public JsonParserHelper getParserHelper() {
         return parserHelper;

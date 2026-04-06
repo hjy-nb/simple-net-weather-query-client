@@ -17,15 +17,15 @@ public class JsonParserHelperTest {
         WeatherData data = new WeatherData(25.5, 60, "晴", 3.2, 10, "2023-05-01T12:00:00", 26.0);
         String json = helper.serialize(data);
         assertNotNull(json);
-        assertTrue(json.contains("temperature"));
+        assertTrue(json.contains("temp"));
     }
 
     @Test
     public void testDeserialize() throws Exception {
-        String json = "{\"cityName\":\"北京\",\"temperature\":25.5,\"humidity\":60}";
+        String json = "{\"name\":\"北京\",\"temp\":25.5,\"humidity\":60}";
         JSONObject obj = helper.deserialize(json, JSONObject.class);
-        assertEquals("北京", obj.getString("cityName"));
-        assertEquals(25.5, obj.getDoubleValue("temperature"), 0.01);
+        assertEquals("北京", obj.getString("name"));
+        assertEquals(25.5, obj.getDoubleValue("temp"), 0.01);
     }
 
     @Test
@@ -47,8 +47,8 @@ public class JsonParserHelperTest {
     @Test
     public void testGetDouble() {
         JSONObject obj = new JSONObject();
-        obj.put("temperature", 25.5);
-        assertEquals(25.5, helper.getDouble(obj, "temperature", 0.0), 0.01);
+        obj.put("temp", 25.5);
+        assertEquals(25.5, helper.getDouble(obj, "temp", 0.0), 0.01);
         assertEquals(0.0, helper.getDouble(obj, "humidity", 0.0), 0.01);
     }
 

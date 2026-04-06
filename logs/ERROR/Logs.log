@@ -349,3 +349,20 @@ java.lang.IllegalArgumentException: 无效的国家名称
 17:04:31.639 [main] ERROR ERROR - JsonParserHelper不能为空
 17:08:29.643 [main] ERROR ERROR - JsonParserHelper不能为空
 17:16:53.038 [main] ERROR ERROR - JsonParserHelper不能为空
+17:19:08.963 [main] ERROR ERROR - JsonParserHelper不能为空
+17:23:43.227 [main] ERROR ERROR - JsonParserHelper不能为空
+17:27:20.182 [main] ERROR ERROR - JsonParserHelper不能为空
+17:27:37.412 [main] ERROR ERROR - 请求失败，重试次数已用完 
+17:27:37.418 [main] ERROR ERROR - 创建WeatherApiClient实例异常 无效的HttpClientBuilder
+17:27:37.438 [main] ERROR ERROR - 创建WeatherApiClient实例异常 无效的基础URLnot_a_url
+17:27:37.452 [main] ERROR ERROR - 创建WeatherApiClient实例异常 无效的API密钥invalid
+17:31:55.830 [main] ERROR ERROR - 创建WeatherApiClient实例异常 无效的HttpClientBuilder
+17:31:55.854 [main] ERROR ERROR - 创建WeatherApiClient实例异常 无效的基础URLnot_a_url
+17:31:55.871 [main] ERROR ERROR - 创建WeatherApiClient实例异常 无效的API密钥invalid
+17:34:00.547 [main] ERROR ERROR - 创建WeatherApiClient实例异常 无效的HttpClientBuilder
+17:34:00.564 [main] ERROR ERROR - 创建WeatherApiClient实例异常 无效的基础URLnot_a_url
+17:34:00.575 [main] ERROR ERROR - 创建WeatherApiClient实例异常 无效的API密钥invalid
+17:34:12.805 [main] ERROR ERROR - JsonParserHelper不能为空
+17:34:14.098 [main] ERROR ERROR - 创建WeatherApiClient实例异常 无效的HttpClientBuilder
+17:34:14.112 [main] ERROR ERROR - 创建WeatherApiClient实例异常 无效的基础URLnot_a_url
+17:34:14.125 [main] ERROR ERROR - 创建WeatherApiClient实例异常 无效的API密钥invalid

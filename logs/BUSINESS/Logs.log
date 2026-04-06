@@ -1574,3 +1574,832 @@
 17:16:53.040 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
 17:16:53.041 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
 17:16:53.041 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:19:07.641 [main] INFO  BUSINESS - 开始记录Location：城市=上海, 经度=121.5, 纬度=31.0, 时区=Asia/Shanghai
+17:19:07.642 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：国家: *** 错误
+
+17:19:07.656 [main] INFO  BUSINESS - 开始记录WeatherData：温度=25.0, 湿度=60, 天气=晴, 风速=10.0, 能见度=100, 更新时间=2023-05-01T12:00:00, 体感温度=28.0
+17:19:07.656 [main] INFO  BUSINESS - 数据记录成功
+
+17:19:07.661 [main] INFO  BUSINESS - 开始记录WeatherData：温度=2500000.0, 湿度=60000000, 天气=晴, 风速=10.0, 能见度=100, 更新时间=2023-05-01T12:00:00, 体感温度=28.0
+17:19:07.661 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：温度: 2500000.0 异常, 湿度: 60000000 异常
+
+17:19:07.661 [main] INFO  BUSINESS - 开始记录Location：城市=上海**, 经度=121.5, 纬度=31.0, 时区=Asia/Shanghai
+17:19:07.661 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：城市: 上海** 错误
+
+17:19:07.662 [main] INFO  BUSINESS - 开始记录WeatherResponse：状态码=20000, 状态消息=成功
+17:19:07.662 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：天气: null 错误, 更新时间错误为null
+
+17:19:07.662 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：城市: null 错误, 城市ID: null 错误, 国家: null 错误, 时区: null 错误
+
+17:19:07.662 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：数据无效：WeatherData无效, 数据无效：Location无效, 状态码: 20000 错误
+
+17:19:08.743 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:19:08.746 [main] INFO  BUSINESS - 开始加载配置文件
+17:19:08.747 [main] INFO  BUSINESS - 加载配置文件成功
+
+17:19:08.747 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:19:08.765 [main] WARN  BUSINESS - 缺少必要字段：temperature
+17:19:08.777 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:19:08.777 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:19:08.862 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:19:08.862 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:19:08.864 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:19:08.865 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:19:08.866 [main] INFO  BUSINESS - 开始记录WeatherData：温度=25.5, 湿度=60, 天气=晴, 风速=3.2, 能见度=10, 更新时间=2023-05-01T12:00:00, 体感温度=26.0
+17:19:08.866 [main] INFO  BUSINESS - 数据记录成功
+
+17:19:08.914 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:19:08.914 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:19:08.916 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:19:08.916 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:19:08.918 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:19:08.918 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:19:08.920 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:19:08.920 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:19:08.921 [main] INFO  BUSINESS - 设置默认字段值：temperature
+17:19:08.921 [main] INFO  BUSINESS - 设置默认字段值：humidity
+17:19:08.922 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:19:08.922 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:19:08.923 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:19:08.923 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:19:08.924 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:19:08.925 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:19:08.931 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:19:08.932 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:19:08.932 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:19:08.945 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:19:08.945 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:19:08.945 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:19:08.946 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:19:08.946 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:19:08.946 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:19:08.948 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:19:08.948 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:19:08.948 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:19:08.953 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:19:08.953 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:19:08.953 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:19:08.958 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:19:08.958 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:19:08.958 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:19:08.959 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:19:08.959 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:19:08.959 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:19:08.961 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:19:08.962 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:19:08.962 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:19:08.963 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:19:08.963 [main] ERROR BUSINESS - 初始化WeatherResponseParser失败
+17:19:08.964 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:19:08.964 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:19:08.964 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:19:08.965 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:19:08.965 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:19:08.965 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:22:47.517 [main] INFO  BUSINESS - 开始记录Location：城市=上海, 经度=121.5, 纬度=31.0, 时区=Asia/Shanghai
+17:22:47.519 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：国家: *** 错误
+
+17:22:47.532 [main] INFO  BUSINESS - 开始记录WeatherData：温度=25.0, 湿度=60, 天气=晴, 风速=10.0, 能见度=100, 更新时间=2023-05-01T12:00:00, 体感温度=28.0
+17:22:47.532 [main] INFO  BUSINESS - 数据记录成功
+
+17:22:47.537 [main] INFO  BUSINESS - 开始记录WeatherData：温度=2500000.0, 湿度=60000000, 天气=晴, 风速=10.0, 能见度=100, 更新时间=2023-05-01T12:00:00, 体感温度=28.0
+17:22:47.537 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：温度: 2500000.0 异常, 湿度: 60000000 异常
+
+17:22:47.538 [main] INFO  BUSINESS - 开始记录Location：城市=上海**, 经度=121.5, 纬度=31.0, 时区=Asia/Shanghai
+17:22:47.538 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：城市: 上海** 错误
+
+17:22:47.538 [main] INFO  BUSINESS - 开始记录WeatherResponse：状态码=20000, 状态消息=成功
+17:22:47.538 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：天气: null 错误, 更新时间错误为null
+
+17:22:47.538 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：城市: null 错误, 城市ID: null 错误, 国家: null 错误, 时区: null 错误
+
+17:22:47.538 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：数据无效：WeatherData无效, 数据无效：Location无效, 状态码: 20000 错误
+
+17:23:41.889 [main] INFO  BUSINESS - 开始记录Location：城市=上海, 经度=121.5, 纬度=31.0, 时区=Asia/Shanghai
+17:23:41.891 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：国家: *** 错误
+
+17:23:41.906 [main] INFO  BUSINESS - 开始记录WeatherData：温度=25.0, 湿度=60, 天气=晴, 风速=10.0, 能见度=100, 更新时间=2023-05-01T12:00:00, 体感温度=28.0
+17:23:41.906 [main] INFO  BUSINESS - 数据记录成功
+
+17:23:41.910 [main] INFO  BUSINESS - 开始记录WeatherData：温度=2500000.0, 湿度=60000000, 天气=晴, 风速=10.0, 能见度=100, 更新时间=2023-05-01T12:00:00, 体感温度=28.0
+17:23:41.910 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：温度: 2500000.0 异常, 湿度: 60000000 异常
+
+17:23:41.910 [main] INFO  BUSINESS - 开始记录Location：城市=上海**, 经度=121.5, 纬度=31.0, 时区=Asia/Shanghai
+17:23:41.910 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：城市: 上海** 错误
+
+17:23:41.911 [main] INFO  BUSINESS - 开始记录WeatherResponse：状态码=20000, 状态消息=成功
+17:23:41.911 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：天气: null 错误, 更新时间错误为null
+
+17:23:41.911 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：城市: null 错误, 城市ID: null 错误, 国家: null 错误, 时区: null 错误
+
+17:23:41.911 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：数据无效：WeatherData无效, 数据无效：Location无效, 状态码: 20000 错误
+
+17:23:43.017 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:23:43.021 [main] INFO  BUSINESS - 开始加载配置文件
+17:23:43.021 [main] INFO  BUSINESS - 加载配置文件成功
+
+17:23:43.021 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:23:43.039 [main] WARN  BUSINESS - 缺少必要字段：temperature
+17:23:43.048 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:23:43.048 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:23:43.132 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:23:43.132 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:23:43.135 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:23:43.136 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:23:43.137 [main] INFO  BUSINESS - 开始记录WeatherData：温度=25.5, 湿度=60, 天气=晴, 风速=3.2, 能见度=10, 更新时间=2023-05-01T12:00:00, 体感温度=26.0
+17:23:43.137 [main] INFO  BUSINESS - 数据记录成功
+
+17:23:43.184 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:23:43.184 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:23:43.186 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:23:43.186 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:23:43.187 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:23:43.187 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:23:43.189 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:23:43.189 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:23:43.190 [main] INFO  BUSINESS - 设置默认字段值：temperature
+17:23:43.190 [main] INFO  BUSINESS - 设置默认字段值：humidity
+17:23:43.191 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:23:43.191 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:23:43.193 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:23:43.193 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:23:43.195 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:23:43.195 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:23:43.200 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:23:43.200 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:23:43.201 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:23:43.213 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:23:43.213 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:23:43.213 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:23:43.214 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:23:43.214 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:23:43.214 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:23:43.215 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:23:43.215 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:23:43.216 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:23:43.219 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:23:43.219 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:23:43.219 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:23:43.224 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:23:43.224 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:23:43.224 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:23:43.226 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:23:43.226 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:23:43.226 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:23:43.227 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:23:43.227 [main] ERROR BUSINESS - 初始化WeatherResponseParser失败
+17:26:40.930 [main] INFO  BUSINESS - 开始记录Location：城市=上海, 经度=121.5, 纬度=31.0, 时区=Asia/Shanghai
+17:26:40.931 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：国家: *** 错误
+
+17:26:40.945 [main] INFO  BUSINESS - 开始记录WeatherData：温度=25.0, 湿度=60, 天气=晴, 风速=10.0, 能见度=100, 更新时间=2023-05-01T12:00:00, 体感温度=28.0
+17:26:40.945 [main] INFO  BUSINESS - 数据记录成功
+
+17:26:40.949 [main] INFO  BUSINESS - 开始记录WeatherData：温度=2500000.0, 湿度=60000000, 天气=晴, 风速=10.0, 能见度=100, 更新时间=2023-05-01T12:00:00, 体感温度=28.0
+17:26:40.949 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：温度: 2500000.0 异常, 湿度: 60000000 异常
+
+17:26:40.949 [main] INFO  BUSINESS - 开始记录Location：城市=上海**, 经度=121.5, 纬度=31.0, 时区=Asia/Shanghai
+17:26:40.949 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：城市: 上海** 错误
+
+17:26:40.949 [main] INFO  BUSINESS - 开始记录WeatherResponse：状态码=20000, 状态消息=成功
+17:26:40.950 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：天气: null 错误, 更新时间错误为null
+
+17:26:40.950 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：城市: null 错误, 城市ID: null 错误, 国家: null 错误, 时区: null 错误
+
+17:26:40.950 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：数据无效：WeatherData无效, 数据无效：Location无效, 状态码: 20000 错误
+
+17:27:18.846 [main] INFO  BUSINESS - 开始记录Location：城市=上海, 经度=121.5, 纬度=31.0, 时区=Asia/Shanghai
+17:27:18.847 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：国家: *** 错误
+
+17:27:18.861 [main] INFO  BUSINESS - 开始记录WeatherData：温度=25.0, 湿度=60, 天气=晴, 风速=10.0, 能见度=100, 更新时间=2023-05-01T12:00:00, 体感温度=28.0
+17:27:18.862 [main] INFO  BUSINESS - 数据记录成功
+
+17:27:18.870 [main] INFO  BUSINESS - 开始记录WeatherData：温度=2500000.0, 湿度=60000000, 天气=晴, 风速=10.0, 能见度=100, 更新时间=2023-05-01T12:00:00, 体感温度=28.0
+17:27:18.870 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：温度: 2500000.0 异常, 湿度: 60000000 异常
+
+17:27:18.870 [main] INFO  BUSINESS - 开始记录Location：城市=上海**, 经度=121.5, 纬度=31.0, 时区=Asia/Shanghai
+17:27:18.870 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：城市: 上海** 错误
+
+17:27:18.871 [main] INFO  BUSINESS - 开始记录WeatherResponse：状态码=20000, 状态消息=成功
+17:27:18.871 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：天气: null 错误, 更新时间错误为null
+
+17:27:18.871 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：城市: null 错误, 城市ID: null 错误, 国家: null 错误, 时区: null 错误
+
+17:27:18.871 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：数据无效：WeatherData无效, 数据无效：Location无效, 状态码: 20000 错误
+
+17:27:19.980 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:27:19.984 [main] INFO  BUSINESS - 开始加载配置文件
+17:27:19.984 [main] INFO  BUSINESS - 加载配置文件成功
+
+17:27:19.985 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:27:19.998 [main] WARN  BUSINESS - 缺少必要字段：temperature
+17:27:20.008 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:27:20.009 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:27:20.092 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:27:20.092 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:27:20.095 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:27:20.095 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:27:20.096 [main] INFO  BUSINESS - 开始记录WeatherData：温度=25.5, 湿度=60, 天气=晴, 风速=3.2, 能见度=10, 更新时间=2023-05-01T12:00:00, 体感温度=26.0
+17:27:20.096 [main] INFO  BUSINESS - 数据记录成功
+
+17:27:20.139 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:27:20.139 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:27:20.141 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:27:20.141 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:27:20.143 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:27:20.143 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:27:20.145 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:27:20.145 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:27:20.145 [main] INFO  BUSINESS - 设置默认字段值：temperature
+17:27:20.145 [main] INFO  BUSINESS - 设置默认字段值：humidity
+17:27:20.146 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:27:20.146 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:27:20.147 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:27:20.147 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:27:20.149 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:27:20.149 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:27:20.155 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:27:20.155 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:27:20.155 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:27:20.167 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:27:20.168 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:27:20.168 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:27:20.169 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:27:20.169 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:27:20.169 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:27:20.170 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:27:20.170 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:27:20.170 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:27:20.174 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:27:20.174 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:27:20.174 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:27:20.179 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:27:20.179 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:27:20.179 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:27:20.180 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:27:20.180 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:27:20.180 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:27:20.182 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:27:20.182 [main] ERROR BUSINESS - 初始化WeatherResponseParser失败
+17:27:21.247 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:27:21.250 [main] INFO  BUSINESS - 开始加载配置文件
+17:27:21.250 [main] INFO  BUSINESS - 加载配置文件成功
+
+17:27:21.251 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:27:21.395 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:27:21.416 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:27:21.416 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:27:21.416 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:27:21.416 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://api.weather.com/v1,
+17:27:21.427 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:27:21.427 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:27:21.428 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:27:21.428 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:27:21.428 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:27:21.428 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:27:21.428 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://api.weather.com/v1,
+17:27:21.432 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:27:21.432 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:27:21.433 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:27:21.434 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:27:21.434 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:27:21.434 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:27:21.434 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://api.weather.com/v1,
+17:27:21.438 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:27:21.438 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:27:21.438 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:27:21.439 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:27:21.439 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:27:21.439 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:27:21.439 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://api.weather.com/v1,
+17:27:21.440 [main] INFO  BUSINESS - 开始执行GET请求 - URL:https://api.weather.com/v1?location=%E5%8C%97%E4%BA%AC&key=abcdefghijklmnopqrstuvwxyz123456&lang=zh
+17:27:26.736 [main] WARN  BUSINESS - 请求失败，正在重试 - 重试次数:1, 重试延迟:1000ms
+17:27:30.755 [main] WARN  BUSINESS - 请求失败，正在重试 - 重试次数:2, 重试延迟:1000ms
+17:27:37.416 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:27:37.416 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:27:37.417 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:27:37.418 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:27:37.418 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:27:37.418 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:27:37.418 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://api.weather.com/v1,
+17:27:37.418 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:27:37.419 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:27:37.419 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:27:37.420 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:27:37.420 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:27:37.420 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:27:37.420 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:27:37.420 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://api.weather.com/v1,
+17:27:37.421 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:27:37.422 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:27:37.422 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:27:37.422 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:27:37.422 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:27:37.423 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:27:37.423 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://api.weather.com/v1,
+17:27:37.430 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:27:37.430 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:27:37.430 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:27:37.431 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:27:37.431 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:27:37.431 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:27:37.431 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://api.weather.com/v1,
+17:27:37.433 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:27:37.433 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:27:37.433 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:27:37.434 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:27:37.434 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:27:37.434 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:27:37.434 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://api.weather.com/v1,
+17:27:37.436 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:27:37.436 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:27:37.437 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:27:37.437 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:27:37.437 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:27:37.437 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:27:37.437 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://api.weather.com/v1,
+17:27:37.438 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:27:37.440 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:27:37.440 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:27:37.440 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:27:37.441 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:27:37.441 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:27:37.441 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:27:37.441 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://api.weather.com/v1,
+17:27:37.443 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:27:37.443 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:27:37.443 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:27:37.444 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:27:37.444 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:27:37.444 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:27:37.444 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://api.weather.com/v1,
+17:27:37.445 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:27:37.445 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:27:37.446 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:27:37.446 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:27:37.446 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:27:37.446 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:27:37.446 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://api.weather.com/v1,
+17:27:37.448 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:27:37.448 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:27:37.448 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:27:37.449 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:27:37.449 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:27:37.449 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:27:37.449 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://api.weather.com/v1,
+17:27:37.450 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:27:37.450 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:27:37.451 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:27:37.451 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:27:37.451 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:27:37.451 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:27:37.451 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://api.weather.com/v1,
+17:27:37.452 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:27:37.456 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:27:37.456 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:27:37.458 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:27:37.464 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:true
+
+17:27:37.465 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:27:37.466 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:3000ms, 读取超时:8000ms, 最大连接数:20, 每路由最大:10, 使用代理:false
+
+17:31:55.632 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:31:55.636 [main] INFO  BUSINESS - 开始加载配置文件
+17:31:55.636 [main] INFO  BUSINESS - 加载配置文件成功
+
+17:31:55.637 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:31:55.786 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:31:55.807 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:31:55.807 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:31:55.808 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:31:55.808 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://devapi.qweather.com/v7/weather/now,
+17:31:55.818 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:31:55.818 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:31:55.819 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:31:55.819 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:31:55.819 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:31:55.819 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:31:55.819 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://devapi.qweather.com/v7/weather/now,
+17:31:55.821 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:31:55.821 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:31:55.822 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:31:55.823 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:31:55.823 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:31:55.823 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:31:55.823 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://devapi.qweather.com/v7/weather/now,
+17:31:55.826 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:31:55.826 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:31:55.827 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:31:55.828 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:31:55.828 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:31:55.828 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:31:55.829 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://devapi.qweather.com/v7/weather/now,
+17:31:55.829 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:31:55.831 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:31:55.832 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:31:55.832 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:31:55.833 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:31:55.833 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:31:55.833 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:31:55.833 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://devapi.qweather.com/v7/weather/now,
+17:31:55.835 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:31:55.835 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:31:55.836 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:31:55.836 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:31:55.836 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:31:55.836 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:31:55.836 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://devapi.qweather.com/v7/weather/now,
+17:31:55.839 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:31:55.840 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:31:55.840 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:31:55.841 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:31:55.841 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:31:55.841 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:31:55.841 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://devapi.qweather.com/v7/weather/now,
+17:31:55.843 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:31:55.843 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:31:55.844 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:31:55.845 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:31:55.845 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:31:55.845 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:31:55.845 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://devapi.qweather.com/v7/weather/now,
+17:31:55.852 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:31:55.852 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:31:55.852 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:31:55.854 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:31:55.854 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:31:55.854 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:31:55.854 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://devapi.qweather.com/v7/weather/now,
+17:31:55.854 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:31:55.855 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:31:55.855 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:31:55.855 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:31:55.856 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:31:55.856 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:31:55.856 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:31:55.856 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://devapi.qweather.com/v7/weather/now,
+17:31:55.859 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:31:55.859 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:31:55.860 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:31:55.860 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:31:55.860 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:31:55.860 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:31:55.861 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://devapi.qweather.com/v7/weather/now,
+17:31:55.862 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:31:55.862 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:31:55.863 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:31:55.864 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:31:55.864 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:31:55.864 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:31:55.864 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://devapi.qweather.com/v7/weather/now,
+17:31:55.865 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:31:55.865 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:31:55.866 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:31:55.867 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:31:55.867 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:31:55.867 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:31:55.867 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://devapi.qweather.com/v7/weather/now,
+17:31:55.869 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:31:55.869 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:31:55.870 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:31:55.870 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:31:55.870 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:31:55.870 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:31:55.870 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://devapi.qweather.com/v7/weather/now,
+17:31:55.870 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:31:55.875 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:31:55.875 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:31:55.877 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:31:55.878 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:31:55.886 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:true
+
+17:31:55.889 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:31:55.889 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:3000ms, 读取超时:8000ms, 最大连接数:20, 每路由最大:10, 使用代理:false
+
+17:34:00.348 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:34:00.352 [main] INFO  BUSINESS - 开始加载配置文件
+17:34:00.353 [main] INFO  BUSINESS - 加载配置文件成功
+
+17:34:00.354 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:34:00.503 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:34:00.524 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:00.524 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:00.525 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:34:00.525 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://devapi.qweather.com/v7/weather/now,
+17:34:00.535 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:34:00.535 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:34:00.536 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:34:00.537 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:00.537 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:00.537 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:34:00.537 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://devapi.qweather.com/v7/weather/now,
+17:34:00.540 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:34:00.540 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:34:00.541 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:34:00.541 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:00.541 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:00.541 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:34:00.541 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://devapi.qweather.com/v7/weather/now,
+17:34:00.544 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:34:00.544 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:34:00.545 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:34:00.546 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:00.546 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:00.546 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:34:00.546 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://devapi.qweather.com/v7/weather/now,
+17:34:00.547 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:34:00.549 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:34:00.549 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:34:00.550 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:34:00.551 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:00.551 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:00.551 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:34:00.551 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://devapi.qweather.com/v7/weather/now,
+17:34:00.552 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:34:00.552 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:34:00.553 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:34:00.553 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:00.553 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:00.553 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:34:00.553 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://devapi.qweather.com/v7/weather/now,
+17:34:00.557 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:34:00.557 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:34:00.558 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:34:00.559 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:00.559 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:00.559 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:34:00.559 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://devapi.qweather.com/v7/weather/now,
+17:34:00.561 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:34:00.561 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:34:00.562 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:34:00.563 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:00.563 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:00.563 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:34:00.563 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://devapi.qweather.com/v7/weather/now,
+17:34:00.563 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:34:00.564 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:34:00.565 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:34:00.565 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:34:00.566 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:00.566 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:00.566 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:34:00.566 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://devapi.qweather.com/v7/weather/now,
+17:34:00.568 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:34:00.568 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:34:00.569 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:34:00.570 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:00.570 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:00.570 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:34:00.570 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://devapi.qweather.com/v7/weather/now,
+17:34:00.571 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:34:00.571 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:34:00.572 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:34:00.572 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:00.572 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:00.572 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:34:00.572 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://devapi.qweather.com/v7/weather/now,
+17:34:00.574 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:34:00.574 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:34:00.574 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:34:00.575 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:00.575 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:00.575 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:34:00.575 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://devapi.qweather.com/v7/weather/now,
+17:34:00.575 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:34:00.581 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:34:00.581 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:34:00.583 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:34:00.585 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:34:00.593 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:true
+
+17:34:00.596 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:34:00.597 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:3000ms, 读取超时:8000ms, 最大连接数:20, 每路由最大:10, 使用代理:false
+
+17:34:11.485 [main] INFO  BUSINESS - 开始记录Location：城市=上海, 经度=121.5, 纬度=31.0, 时区=Asia/Shanghai
+17:34:11.486 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：国家: *** 错误
+
+17:34:11.501 [main] INFO  BUSINESS - 开始记录WeatherData：温度=25.0, 湿度=60, 天气=晴, 风速=10.0, 能见度=100, 更新时间=2023-05-01T12:00:00, 体感温度=28.0
+17:34:11.501 [main] INFO  BUSINESS - 数据记录成功
+
+17:34:11.505 [main] INFO  BUSINESS - 开始记录WeatherData：温度=2500000.0, 湿度=60000000, 天气=晴, 风速=10.0, 能见度=100, 更新时间=2023-05-01T12:00:00, 体感温度=28.0
+17:34:11.505 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：温度: 2500000.0 异常, 湿度: 60000000 异常
+
+17:34:11.505 [main] INFO  BUSINESS - 开始记录Location：城市=上海**, 经度=121.5, 纬度=31.0, 时区=Asia/Shanghai
+17:34:11.505 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：城市: 上海** 错误
+
+17:34:11.506 [main] INFO  BUSINESS - 开始记录WeatherResponse：状态码=20000, 状态消息=成功
+17:34:11.506 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：天气: null 错误, 更新时间错误为null
+
+17:34:11.506 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：城市: null 错误, 城市ID: null 错误, 国家: null 错误, 时区: null 错误
+
+17:34:11.506 [main] WARN  BUSINESS - 数据记录失败,异常原因如下：数据无效：WeatherData无效, 数据无效：Location无效, 状态码: 20000 错误
+
+17:34:12.595 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:12.599 [main] INFO  BUSINESS - 开始加载配置文件
+17:34:12.600 [main] INFO  BUSINESS - 加载配置文件成功
+
+17:34:12.600 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:12.619 [main] WARN  BUSINESS - 缺少必要字段：temperature
+17:34:12.627 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:12.627 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:12.713 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:12.713 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:12.717 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:12.717 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:12.718 [main] INFO  BUSINESS - 开始记录WeatherData：温度=25.5, 湿度=60, 天气=晴, 风速=3.2, 能见度=10, 更新时间=2023-05-01T12:00:00, 体感温度=26.0
+17:34:12.718 [main] INFO  BUSINESS - 数据记录成功
+
+17:34:12.760 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:12.760 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:12.762 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:12.762 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:12.764 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:12.764 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:12.767 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:12.767 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:12.768 [main] INFO  BUSINESS - 设置默认字段值：temperature
+17:34:12.768 [main] INFO  BUSINESS - 设置默认字段值：humidity
+17:34:12.769 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:12.769 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:12.770 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:12.770 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:12.772 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:12.772 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:12.779 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:12.779 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:12.779 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:34:12.791 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:12.791 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:12.791 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:34:12.793 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:12.793 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:12.793 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:34:12.794 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:12.794 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:12.794 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:34:12.797 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:12.798 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:12.798 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:34:12.802 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:12.803 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:12.803 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:34:12.804 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:12.804 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:12.804 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:34:12.805 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:34:12.805 [main] ERROR BUSINESS - 初始化WeatherResponseParser失败
+17:34:13.893 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:34:13.897 [main] INFO  BUSINESS - 开始加载配置文件
+17:34:13.898 [main] INFO  BUSINESS - 加载配置文件成功
+
+17:34:13.899 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:34:14.054 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:34:14.076 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:14.077 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:14.077 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:34:14.077 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://devapi.qweather.com/v7/weather/now,
+17:34:14.086 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:34:14.086 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:34:14.087 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:34:14.088 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:14.088 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:14.088 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:34:14.088 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://devapi.qweather.com/v7/weather/now,
+17:34:14.090 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:34:14.090 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:34:14.091 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:34:14.092 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:14.092 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:14.092 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:34:14.092 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://devapi.qweather.com/v7/weather/now,
+17:34:14.096 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:34:14.096 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:34:14.097 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:34:14.097 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:14.097 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:14.097 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:34:14.097 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://devapi.qweather.com/v7/weather/now,
+17:34:14.098 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:34:14.100 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:34:14.100 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:34:14.101 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:34:14.101 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:14.101 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:14.101 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:34:14.102 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://devapi.qweather.com/v7/weather/now,
+17:34:14.103 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:34:14.103 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:34:14.103 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:34:14.104 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:14.104 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:14.104 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:34:14.104 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://devapi.qweather.com/v7/weather/now,
+17:34:14.106 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:34:14.106 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:34:14.107 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:34:14.107 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:14.107 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:14.107 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:34:14.107 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://devapi.qweather.com/v7/weather/now,
+17:34:14.110 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:34:14.110 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:34:14.111 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:34:14.111 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:14.111 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:14.111 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:34:14.111 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://devapi.qweather.com/v7/weather/now,
+17:34:14.112 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:34:14.114 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:34:14.114 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:34:14.114 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:34:14.116 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:14.116 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:14.116 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:34:14.116 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://devapi.qweather.com/v7/weather/now,
+17:34:14.118 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:34:14.118 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:34:14.118 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:34:14.119 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:14.119 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:14.119 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:34:14.119 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://devapi.qweather.com/v7/weather/now,
+17:34:14.120 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:34:14.120 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:34:14.121 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:34:14.121 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:14.121 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:14.121 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:34:14.121 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://devapi.qweather.com/v7/weather/now,
+17:34:14.123 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:34:14.123 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:34:14.123 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:34:14.124 [main] INFO  BUSINESS - 开始初始化JsonParserHelper
+17:34:14.124 [main] INFO  BUSINESS - 初始化JsonParserHelper完成
+17:34:14.124 [main] INFO  BUSINESS - 开始初始化WeatherResponseParser
+17:34:14.124 [main] INFO  BUSINESS - 创建WeatherApiClient实例成功 - API密钥:abcdefghijklmnopqrstuvwxyz123456, 基础URL:https://devapi.qweather.com/v7/weather/now,
+17:34:14.124 [main] INFO  BUSINESS - 开始创建WeatherApiClient实例
+17:34:14.129 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:34:14.130 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:false
+
+17:34:14.131 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:34:14.133 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:34:14.136 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:5000ms, 读取超时:10000ms, 最大连接数:10, 每路由最大:5, 使用代理:true
+
+17:34:14.138 [main] INFO  BUSINESS - 开始创建HttpClient实例
+17:34:14.139 [main] INFO  BUSINESS - 创建 HttpClient 实例成功 - 连接超时:3000ms, 读取超时:8000ms, 最大连接数:20, 每路由最大:10, 使用代理:false
+

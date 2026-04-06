@@ -2,8 +2,8 @@ package com.yao.learn;
 
 import org.apache.hc.client5.http.impl.classic.CloseableHttpClient;
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
 
+import static org.junit.jupiter.api.Assertions.*;
 
 public class WeatherHttpClientBuilderTest {
 
@@ -33,6 +33,8 @@ public class WeatherHttpClientBuilderTest {
         assertNotNull(client);
         assertEquals(3000, builder.getConnectTimeout());
         assertEquals(8000, builder.getReadTimeout());
+        assertEquals(20, builder.getMaxConnections());
+        assertEquals(10, builder.getMaxPerRoute());
     }
 
     @Test
@@ -50,5 +52,13 @@ public class WeatherHttpClientBuilderTest {
         assertNotNull(client);
         assertTrue(builder.isUseProxy());
         assertNotNull(builder.getProxy());
+    }
+
+    @Test
+    public void testFluentAPI() {
+        WeatherHttpClientBuilder builder = new WeatherHttpClientBuilder();
+        WeatherHttpClientBuilder returned = builder.setConnectTimeout(5000);
+
+        assertSame(builder, returned);
     }
 }

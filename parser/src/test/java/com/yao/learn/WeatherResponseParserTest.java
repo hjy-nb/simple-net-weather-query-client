@@ -97,37 +97,6 @@ public class WeatherResponseParserTest {
         assertEquals(200, parser.extractStatusCode(jsonObj));
     }
 
-    @Test
-    public void testExtractStatusMessage() {
-        JSONObject jsonObj = new JSONObject();
-        jsonObj.put("message", "成功");
-
-        assertEquals("成功", parser.extractStatusMessage(jsonObj));
-    }
-
-    @Test
-    public void testExtractWeatherDataJson() {
-        JSONObject jsonObj = new JSONObject();
-        JSONObject dataObj = new JSONObject();
-        dataObj.put("temp", "25.5");
-        jsonObj.put("now", dataObj);
-
-        JSONObject extracted = parser.extractWeatherDataJson(jsonObj);
-        assertNotNull(extracted);
-        assertEquals("25.5", extracted.getString("temp"));
-    }
-
-    @Test
-    public void testExtractLocationJson() {
-        JSONObject jsonObj = new JSONObject();
-        JSONObject locationObj = new JSONObject();
-        locationObj.put("name", "北京");
-        jsonObj.put("location", locationObj);
-
-        JSONObject extracted = parser.extractLocationJson(jsonObj);
-        assertNotNull(extracted);
-        assertEquals("北京", extracted.getString("name"));
-    }
 
     @Test
     public void testConstructorWithNullHelper() {
