@@ -1,0 +1,70 @@
+16:37:14.347 [main] ERROR ERROR - JsonParserHelper不能为空
+17:25:51.784 [main] ERROR ERROR - JsonParserHelper不能为空
+17:26:57.300 [main] ERROR ERROR - JsonParserHelper不能为空
+18:17:11.532 [main] ERROR ERROR - 创建WeatherApiClient实例异常 无效的API密钥test_api_key_123456789012345678901234
+18:17:11.544 [main] ERROR ERROR - 创建WeatherApiClient实例异常 无效的API密钥test_api_key_123456789012345678901234
+18:17:11.547 [main] ERROR ERROR - 创建WeatherApiClient实例异常 无效的API密钥test_api_key_123456789012345678901234
+18:17:11.551 [main] ERROR ERROR - 创建WeatherApiClient实例异常 无效的API密钥test_api_key_123456789012345678901234
+18:17:11.554 [main] ERROR ERROR - 创建WeatherApiClient实例异常 无效的API密钥test_api_key_123456789012345678901234
+18:17:11.557 [main] ERROR ERROR - 创建WeatherApiClient实例异常 无效的API密钥test_api_key_123456789012345678901234
+18:17:11.559 [main] ERROR ERROR - 创建WeatherApiClient实例异常 无效的API密钥test_api_key_123456789012345678901234
+18:17:11.561 [main] ERROR ERROR - 创建WeatherApiClient实例异常 无效的API密钥test_api_key_123456789012345678901234
+18:17:11.563 [main] ERROR ERROR - 创建WeatherApiClient实例异常 无效的API密钥test_api_key_123456789012345678901234
+18:17:11.564 [main] ERROR ERROR - 创建WeatherApiClient实例异常 无效的API密钥test_api_key_123456789012345678901234
+18:17:11.566 [main] ERROR ERROR - 创建WeatherApiClient实例异常 无效的API密钥test_api_key_123456789012345678901234
+18:17:11.568 [main] ERROR ERROR - 创建WeatherApiClient实例异常 无效的API密钥test_api_key_123456789012345678901234
+18:17:11.570 [main] ERROR ERROR - 创建WeatherApiClient实例异常 无效的API密钥test_api_key_123456789012345678901234
+18:17:11.572 [main] ERROR ERROR - 创建WeatherApiClient实例异常 无效的API密钥test_api_key_123456789012345678901234
+18:17:11.573 [main] ERROR ERROR - 创建WeatherApiClient实例异常 无效的API密钥test_api_key_123456789012345678901234
+18:23:35.106 [main] ERROR ERROR - 请求失败，重试次数已用完 
+18:23:35.112 [main] ERROR ERROR - 创建WeatherApiClient实例异常 无效的HttpClientBuilder
+18:23:35.132 [main] ERROR ERROR - 创建WeatherApiClient实例异常 无效的基础URLnot_a_url
+18:23:35.145 [main] ERROR ERROR - 创建WeatherApiClient实例异常 无效的API密钥invalid
+18:29:17.044 [main] ERROR ERROR - 请求失败，重试次数已用完 
+18:29:17.050 [main] ERROR ERROR - 创建WeatherApiClient实例异常 无效的HttpClientBuilder
+18:29:17.065 [main] ERROR ERROR - 创建WeatherApiClient实例异常 无效的基础URLnot_a_url
+18:29:17.079 [main] ERROR ERROR - 创建WeatherApiClient实例异常 无效的API密钥invalid
+18:37:07.044 [main] ERROR ERROR - JsonParserHelper不能为空
+18:37:16.463 [main] ERROR ERROR - 请求失败，重试次数已用完 
+18:37:16.467 [main] ERROR ERROR - 创建WeatherApiClient实例异常 无效的HttpClientBuilder
+18:37:16.480 [main] ERROR ERROR - 创建WeatherApiClient实例异常 无效的基础URLnot_a_url
+18:37:16.495 [main] ERROR ERROR - 创建WeatherApiClient实例异常 无效的API密钥invalid
+20:45:58.869 [main] ERROR ERROR - 请求失败，重试次数已用完 
+20:45:58.869 [main] ERROR ERROR - 程序出错退出
+java.io.IOException: 请求失败，状态码: 403
+	at com.yao.learn.WeatherApiClient.lambda$executeGetRequest$0(WeatherApiClient.java:162)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:247)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:188)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:162)
+	at com.yao.learn.WeatherApiClient.executeGetRequest(WeatherApiClient.java:154)
+	at com.yao.learn.WeatherApiClient.sonQueryWeather(WeatherApiClient.java:204)
+	at com.yao.learn.WeatherApiClient.queryWeather(WeatherApiClient.java:216)
+	at com.yao.learn.Main.run(Main.java:97)
+	at com.yao.learn.Main.runMain(Main.java:67)
+	at com.yao.learn.Main.main(Main.java:44)
+21:00:14.977 [main] ERROR ERROR - 请求失败，重试次数已用完 
+21:00:14.977 [main] ERROR ERROR - 程序出错退出
+java.io.IOException: 请求失败，状态码: 403
+	at com.yao.learn.WeatherApiClient.lambda$executeGetRequest$0(WeatherApiClient.java:162)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:247)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:188)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:162)
+	at com.yao.learn.WeatherApiClient.executeGetRequest(WeatherApiClient.java:154)
+	at com.yao.learn.WeatherApiClient.sonQueryWeather(WeatherApiClient.java:204)
+	at com.yao.learn.WeatherApiClient.queryWeather(WeatherApiClient.java:216)
+	at com.yao.learn.Main.run(Main.java:97)
+	at com.yao.learn.Main.runMain(Main.java:67)
+	at com.yao.learn.Main.main(Main.java:44)
+21:08:15.956 [main] ERROR ERROR - 请求失败，重试次数已用完 
+21:08:15.957 [main] ERROR ERROR - 程序出错退出
+java.io.IOException: 请求失败，状态码: 403
+	at com.yao.learn.WeatherApiClient.lambda$executeGetRequest$0(WeatherApiClient.java:162)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:247)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:188)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:162)
+	at com.yao.learn.WeatherApiClient.executeGetRequest(WeatherApiClient.java:154)
+	at com.yao.learn.WeatherApiClient.sonQueryWeather(WeatherApiClient.java:204)
+	at com.yao.learn.WeatherApiClient.queryWeather(WeatherApiClient.java:216)
+	at com.yao.learn.Main.run(Main.java:97)
+	at com.yao.learn.Main.runMain(Main.java:67)
+	at com.yao.learn.Main.main(Main.java:44)

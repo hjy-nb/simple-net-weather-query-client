@@ -1,3 +1,347 @@
-17:53:12.149 [main] ERROR ERROR - 找不到配置文件：config.properties
-17:55:02.244 [main] ERROR ERROR - 找不到配置文件：config.properties
-17:56:26.416 [main] ERROR ERROR - 找不到配置文件：config.properties
+13:40:34.328 [main] ERROR ERROR - 请求失败，重试次数已用完 
+13:40:34.328 [main] ERROR ERROR - 程序出错退出
+java.io.IOException: 请求失败，状态码: 404
+	at com.yao.learn.WeatherApiClient.lambda$executeGetRequest$0(WeatherApiClient.java:162)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:247)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:188)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:162)
+	at com.yao.learn.WeatherApiClient.executeGetRequest(WeatherApiClient.java:154)
+	at com.yao.learn.Main.getCityId(Main.java:176)
+	at com.yao.learn.Main.run(Main.java:103)
+	at com.yao.learn.Main.runMain(Main.java:79)
+	at com.yao.learn.Main.main(Main.java:54)
+13:47:10.890 [main] ERROR ERROR - 请求失败，重试次数已用完 
+13:47:10.890 [main] ERROR ERROR - 程序出错退出
+java.io.IOException: 请求失败，状态码: 404
+	at com.yao.learn.WeatherApiClient.lambda$executeGetRequest$0(WeatherApiClient.java:162)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:247)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:188)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:162)
+	at com.yao.learn.WeatherApiClient.executeGetRequest(WeatherApiClient.java:154)
+	at com.yao.learn.Main.getCityId(Main.java:176)
+	at com.yao.learn.Main.run(Main.java:103)
+	at com.yao.learn.Main.runMain(Main.java:79)
+	at com.yao.learn.Main.main(Main.java:54)
+	https://geoapi.qweather.com/v2/city/lookup?location=城市名&key=xxx
+
+13:48:55.544 [main] ERROR ERROR - 请求失败，重试次数已用完 
+13:48:55.544 [main] ERROR ERROR - 程序出错退出
+java.io.IOException: 请求失败，状态码: 404
+	at com.yao.learn.WeatherApiClient.lambda$executeGetRequest$0(WeatherApiClient.java:162)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:247)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:188)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:162)
+	at com.yao.learn.WeatherApiClient.executeGetRequest(WeatherApiClient.java:154)
+	at com.yao.learn.Main.getCityId(Main.java:176)
+	at com.yao.learn.Main.run(Main.java:103)
+	at com.yao.learn.Main.runMain(Main.java:79)
+	at com.yao.learn.Main.main(Main.java:54)
+13:50:27.151 [main] ERROR ERROR - 请求失败，重试次数已用完 
+13:50:27.152 [main] ERROR ERROR - 程序出错退出
+java.io.IOException: 请求失败，状态码: 404
+	at com.yao.learn.WeatherApiClient.lambda$executeGetRequest$0(WeatherApiClient.java:162)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:247)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:188)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:162)
+	at com.yao.learn.WeatherApiClient.executeGetRequest(WeatherApiClient.java:154)
+	at com.yao.learn.Main.getCityId(Main.java:176)
+	at com.yao.learn.Main.run(Main.java:103)
+	at com.yao.learn.Main.runMain(Main.java:79)
+	at com.yao.learn.Main.main(Main.java:54)
+13:58:22.535 [main] ERROR ERROR - 请求失败，重试次数已用完 
+13:58:22.535 [main] ERROR ERROR - 程序出错退出
+java.io.IOException: 请求失败，状态码: 404
+	at com.yao.learn.WeatherApiClient.lambda$executeGetRequest$0(WeatherApiClient.java:162)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:247)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:188)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:162)
+	at com.yao.learn.WeatherApiClient.executeGetRequest(WeatherApiClient.java:154)
+	at com.yao.learn.Main.getCityId(Main.java:176)
+	at com.yao.learn.Main.run(Main.java:103)
+	at com.yao.learn.Main.runMain(Main.java:79)
+	at com.yao.learn.Main.main(Main.java:54)
+14:02:46.392 [main] ERROR ERROR - 请求失败，重试次数已用完 
+14:02:46.392 [main] ERROR ERROR - 程序出错退出
+java.io.IOException: 请求失败，状态码: 404
+	at com.yao.learn.WeatherApiClient.lambda$executeGetRequest$0(WeatherApiClient.java:162)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:247)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:188)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:162)
+	at com.yao.learn.WeatherApiClient.executeGetRequest(WeatherApiClient.java:154)
+	at com.yao.learn.Main.getCityId(Main.java:176)
+	at com.yao.learn.Main.run(Main.java:103)
+	at com.yao.learn.Main.runMain(Main.java:79)
+	at com.yao.learn.Main.main(Main.java:54)
+14:06:27.476 [main] ERROR ERROR - 创建WeatherApiClient实例异常 无效的基础URLmf4ky4q37p.re.qweatherapi.com/geo/v2/city/lookup
+14:06:27.476 [main] ERROR ERROR - 程序出错退出
+java.lang.RuntimeException: 创建WeatherApiClient实例异常
+	at com.yao.learn.WeatherApiClient.<init>(WeatherApiClient.java:38)
+	at com.yao.learn.Main.init(Main.java:38)
+	at com.yao.learn.Main.main(Main.java:51)
+14:09:03.130 [main] ERROR ERROR - 请求失败，重试次数已用完 
+14:09:03.130 [main] ERROR ERROR - 程序出错退出
+org.apache.hc.client5.http.ClientProtocolException: Target host is not specified
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:188)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:245)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:188)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:162)
+	at com.yao.learn.WeatherApiClient.executeGetRequest(WeatherApiClient.java:155)
+	at com.yao.learn.Main.getCityId(Main.java:176)
+	at com.yao.learn.Main.run(Main.java:103)
+	at com.yao.learn.Main.runMain(Main.java:79)
+	at com.yao.learn.Main.main(Main.java:54)
+Caused by: org.apache.hc.core5.http.ProtocolException: Target host is not specified
+	at org.apache.hc.client5.http.impl.routing.DefaultRoutePlanner.determineRoute(DefaultRoutePlanner.java:77)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.determineRoute(InternalHttpClient.java:125)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:172)
+	... 8 more
+14:10:33.330 [main] ERROR ERROR - 请求失败，重试次数已用完 
+14:10:33.331 [main] ERROR ERROR - 程序出错退出
+java.io.IOException: 请求失败，状态码: 403
+	at com.yao.learn.WeatherApiClient.lambda$executeGetRequest$0(WeatherApiClient.java:163)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:247)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:188)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:162)
+	at com.yao.learn.WeatherApiClient.executeGetRequest(WeatherApiClient.java:155)
+	at com.yao.learn.WeatherApiClient.sonQueryWeather(WeatherApiClient.java:205)
+	at com.yao.learn.WeatherApiClient.queryWeather(WeatherApiClient.java:217)
+	at com.yao.learn.Main.run(Main.java:106)
+	at com.yao.learn.Main.runMain(Main.java:79)
+	at com.yao.learn.Main.main(Main.java:54)
+14:11:25.125 [main] ERROR ERROR - 程序出错退出
+java.lang.NullPointerException: Cannot invoke "com.yao.learn.WeatherData.isValid(com.yao.learn.WeatherData)" because "data" is null
+	at com.yao.learn.WeatherResponse.checkErrors(WeatherResponse.java:43)
+	at com.yao.learn.WeatherResponse.checkErrors(WeatherResponse.java:60)
+	at com.yao.learn.WeatherResponse.isValid(WeatherResponse.java:90)
+	at com.yao.learn.WeatherResponseParser.validateWeatherResponse(WeatherResponseParser.java:52)
+	at com.yao.learn.Main.run(Main.java:136)
+	at com.yao.learn.Main.runMain(Main.java:79)
+	at com.yao.learn.Main.main(Main.java:54)
+15:19:27.825 [main] ERROR ERROR - 请求失败，重试次数已用完 
+15:19:27.825 [main] ERROR ERROR - 程序出错退出
+java.io.IOException: 请求失败，状态码: 400
+	at com.yao.learn.WeatherApiClient.lambda$executeGetRequest$0(WeatherApiClient.java:162)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:247)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:188)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:162)
+	at com.yao.learn.WeatherApiClient.executeGetRequest(WeatherApiClient.java:154)
+	at com.yao.learn.WeatherApiClient.sonQueryWeather(WeatherApiClient.java:204)
+	at com.yao.learn.WeatherApiClient.queryWeather(WeatherApiClient.java:222)
+	at com.yao.learn.Main.run(Main.java:135)
+	at com.yao.learn.Main.runMain(Main.java:87)
+	at com.yao.learn.Main.main(Main.java:62)
+15:35:09.661 [main] ERROR ERROR - 请求失败，重试次数已用完 
+15:35:09.661 [main] ERROR ERROR - 程序出错退出
+java.io.IOException: 请求失败，状态码: 400
+	at com.yao.learn.WeatherApiClient.lambda$executeGetRequest$0(WeatherApiClient.java:169)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:247)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:188)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:162)
+	at com.yao.learn.WeatherApiClient.executeGetRequest(WeatherApiClient.java:161)
+	at com.yao.learn.WeatherApiClient.sonQueryWeather(WeatherApiClient.java:211)
+	at com.yao.learn.WeatherApiClient.queryWeather(WeatherApiClient.java:229)
+	at com.yao.learn.Main.run(Main.java:135)
+	at com.yao.learn.Main.runMain(Main.java:87)
+	at com.yao.learn.Main.main(Main.java:62)
+15:44:02.460 [main] ERROR ERROR - 请求失败，重试次数已用完 
+15:44:02.460 [main] ERROR ERROR - 程序出错退出
+java.io.IOException: 请求失败，状态码: 400
+	at com.yao.learn.WeatherApiClient.lambda$executeGetRequest$0(WeatherApiClient.java:169)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:247)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:188)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:162)
+	at com.yao.learn.WeatherApiClient.executeGetRequest(WeatherApiClient.java:161)
+	at com.yao.learn.Main.getCityId(Main.java:209)
+	at com.yao.learn.Main.run(Main.java:133)
+	at com.yao.learn.Main.runMain(Main.java:87)
+	at com.yao.learn.Main.main(Main.java:62)
+15:44:56.532 [main] ERROR ERROR - 请求失败，重试次数已用完 
+15:44:56.532 [main] ERROR ERROR - 程序出错退出
+java.io.IOException: 请求失败，状态码: 400
+	at com.yao.learn.WeatherApiClient.lambda$executeGetRequest$0(WeatherApiClient.java:169)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:247)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:188)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:162)
+	at com.yao.learn.WeatherApiClient.executeGetRequest(WeatherApiClient.java:161)
+	at com.yao.learn.Main.getCityId(Main.java:209)
+	at com.yao.learn.Main.run(Main.java:133)
+	at com.yao.learn.Main.runMain(Main.java:87)
+	at com.yao.learn.Main.main(Main.java:62)
+15:50:36.753 [main] ERROR ERROR - 请求失败，重试次数已用完 
+15:50:36.753 [main] ERROR ERROR - 程序出错退出
+java.io.IOException: 请求失败，状态码: 400
+	at com.yao.learn.WeatherApiClient.lambda$executeGetRequest$0(WeatherApiClient.java:169)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:247)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:188)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:162)
+	at com.yao.learn.WeatherApiClient.executeGetRequest(WeatherApiClient.java:161)
+	at com.yao.learn.Main.getCityId(Main.java:209)
+	at com.yao.learn.Main.run(Main.java:133)
+	at com.yao.learn.Main.runMain(Main.java:87)
+	at com.yao.learn.Main.main(Main.java:62)
+16:07:49.215 [main] ERROR ERROR - 请求失败，重试次数已用完 
+16:07:49.215 [main] ERROR ERROR - 程序出错退出
+java.io.IOException: 请求失败，状态码: 400
+	at com.yao.learn.WeatherApiClient.lambda$executeGetRequest$0(WeatherApiClient.java:169)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:247)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:188)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:162)
+	at com.yao.learn.WeatherApiClient.executeGetRequest(WeatherApiClient.java:161)
+	at com.yao.learn.Main.getCityId(Main.java:209)
+	at com.yao.learn.Main.run(Main.java:133)
+	at com.yao.learn.Main.runMain(Main.java:87)
+	at com.yao.learn.Main.main(Main.java:62)
+16:09:41.371 [main] ERROR ERROR - 请求失败，重试次数已用完 
+16:09:41.371 [main] ERROR ERROR - 程序出错退出
+java.io.IOException: 请求失败，状态码: 400
+	at com.yao.learn.WeatherApiClient.lambda$executeGetRequest$0(WeatherApiClient.java:169)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:247)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:188)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:162)
+	at com.yao.learn.WeatherApiClient.executeGetRequest(WeatherApiClient.java:161)
+	at com.yao.learn.Main.getCityId(Main.java:209)
+	at com.yao.learn.Main.run(Main.java:133)
+	at com.yao.learn.Main.runMain(Main.java:87)
+	at com.yao.learn.Main.main(Main.java:62)
+16:10:45.678 [main] ERROR ERROR - 请求失败，重试次数已用完 
+16:10:45.678 [main] ERROR ERROR - 程序出错退出
+java.io.IOException: 请求失败，状态码: 400
+	at com.yao.learn.WeatherApiClient.lambda$executeGetRequest$0(WeatherApiClient.java:169)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:247)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:188)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:162)
+	at com.yao.learn.WeatherApiClient.executeGetRequest(WeatherApiClient.java:161)
+	at com.yao.learn.Main.getCityId(Main.java:209)
+	at com.yao.learn.Main.run(Main.java:133)
+	at com.yao.learn.Main.runMain(Main.java:87)
+	at com.yao.learn.Main.main(Main.java:62)
+16:11:19.002 [main] ERROR ERROR - 请求失败，重试次数已用完 
+16:11:19.002 [main] ERROR ERROR - 程序出错退出
+java.io.IOException: 请求失败，状态码: 400
+	at com.yao.learn.WeatherApiClient.lambda$executeGetRequest$0(WeatherApiClient.java:169)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:247)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:188)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:162)
+	at com.yao.learn.WeatherApiClient.executeGetRequest(WeatherApiClient.java:161)
+	at com.yao.learn.Main.getCityId(Main.java:209)
+	at com.yao.learn.Main.run(Main.java:133)
+	at com.yao.learn.Main.runMain(Main.java:87)
+	at com.yao.learn.Main.main(Main.java:62)
+16:12:27.992 [main] ERROR ERROR - 请求失败，重试次数已用完 
+16:12:27.992 [main] ERROR ERROR - 程序出错退出
+java.io.IOException: 请求失败，状态码: 400
+	at com.yao.learn.WeatherApiClient.lambda$executeGetRequest$0(WeatherApiClient.java:169)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:247)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:188)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:162)
+	at com.yao.learn.WeatherApiClient.executeGetRequest(WeatherApiClient.java:161)
+	at com.yao.learn.Main.getCityId(Main.java:209)
+	at com.yao.learn.Main.run(Main.java:133)
+	at com.yao.learn.Main.runMain(Main.java:87)
+	at com.yao.learn.Main.main(Main.java:62)
+16:13:03.801 [main] ERROR ERROR - 请求失败，重试次数已用完 
+16:13:03.801 [main] ERROR ERROR - 程序出错退出
+java.io.IOException: 请求失败，状态码: 400
+	at com.yao.learn.WeatherApiClient.lambda$executeGetRequest$0(WeatherApiClient.java:169)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:247)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:188)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:162)
+	at com.yao.learn.WeatherApiClient.executeGetRequest(WeatherApiClient.java:161)
+	at com.yao.learn.Main.getCityId(Main.java:209)
+	at com.yao.learn.Main.run(Main.java:133)
+	at com.yao.learn.Main.runMain(Main.java:87)
+	at com.yao.learn.Main.main(Main.java:62)
+16:31:31.267 [main] ERROR ERROR - 请求失败，重试次数已用完 
+16:31:31.267 [main] ERROR ERROR - 查询请求不存在，请重试
+java.io.IOException: 请求失败，状态码: 400
+	at com.yao.learn.WeatherApiClient.lambda$executeGetRequest$0(WeatherApiClient.java:169)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:247)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:188)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:162)
+	at com.yao.learn.WeatherApiClient.executeGetRequest(WeatherApiClient.java:161)
+	at com.yao.learn.Main.getCityId(Main.java:219)
+	at com.yao.learn.Main.run(Main.java:143)
+	at com.yao.learn.Main.runMain(Main.java:90)
+	at com.yao.learn.Main.main(Main.java:63)
+16:31:51.607 [main] ERROR ERROR - 程序出错退出
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at com.yao.learn.Main.runMain(Main.java:77)
+	at com.yao.learn.Main.main(Main.java:63)
+16:32:47.394 [main] ERROR ERROR - 请求失败，重试次数已用完 
+16:32:47.394 [main] ERROR ERROR - 查询请求不存在，请重试
+java.io.IOException: 请求失败，状态码: 400
+	at com.yao.learn.WeatherApiClient.lambda$executeGetRequest$0(WeatherApiClient.java:169)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:247)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:188)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:162)
+	at com.yao.learn.WeatherApiClient.executeGetRequest(WeatherApiClient.java:161)
+	at com.yao.learn.Main.getCityId(Main.java:219)
+	at com.yao.learn.Main.run(Main.java:143)
+	at com.yao.learn.Main.runMain(Main.java:90)
+	at com.yao.learn.Main.main(Main.java:63)
+16:40:24.805 [main] ERROR ERROR - 程序出错退出
+java.lang.NullPointerException: Cannot invoke "String.length()" because "s" is null
+	at java.base/java.net.URLEncoder.encode(URLEncoder.java:223)
+	at com.yao.learn.WeatherApiClient.buildRequestUrl(WeatherApiClient.java:126)
+	at com.yao.learn.Main.getCityId(Main.java:217)
+	at com.yao.learn.Main.run(Main.java:143)
+	at com.yao.learn.Main.runMain(Main.java:90)
+	at com.yao.learn.Main.main(Main.java:63)
+16:40:24.805 [main] ERROR ERROR - 程序出错退出
+java.lang.NullPointerException: Cannot invoke "String.length()" because "s" is null
+	at java.base/java.net.URLEncoder.encode(URLEncoder.java:223)
+	at com.yao.learn.WeatherApiClient.buildRequestUrl(WeatherApiClient.java:126)
+	at com.yao.learn.Main.getCityId(Main.java:217)
+	at com.yao.learn.Main.run(Main.java:143)
+	at com.yao.learn.Main.runMain(Main.java:90)
+	at com.yao.learn.Main.main(Main.java:63)
+16:42:00.111 [main] ERROR ERROR - 程序出错退出
+java.lang.NullPointerException: Cannot invoke "String.length()" because "s" is null
+	at java.base/java.net.URLEncoder.encode(URLEncoder.java:223)
+	at com.yao.learn.WeatherApiClient.buildRequestUrl(WeatherApiClient.java:126)
+	at com.yao.learn.Main.getCityId(Main.java:220)
+	at com.yao.learn.Main.run(Main.java:146)
+	at com.yao.learn.Main.runMain(Main.java:90)
+	at com.yao.learn.Main.main(Main.java:63)
+16:42:00.111 [main] ERROR ERROR - 程序出错退出
+java.lang.NullPointerException: Cannot invoke "String.length()" because "s" is null
+	at java.base/java.net.URLEncoder.encode(URLEncoder.java:223)
+	at com.yao.learn.WeatherApiClient.buildRequestUrl(WeatherApiClient.java:126)
+	at com.yao.learn.Main.getCityId(Main.java:220)
+	at com.yao.learn.Main.run(Main.java:146)
+	at com.yao.learn.Main.runMain(Main.java:90)
+	at com.yao.learn.Main.main(Main.java:63)
+16:43:21.252 [main] ERROR ERROR - 程序出错退出
+java.lang.NullPointerException: Cannot invoke "String.length()" because "s" is null
+	at java.base/java.net.URLEncoder.encode(URLEncoder.java:223)
+	at com.yao.learn.WeatherApiClient.buildRequestUrl(WeatherApiClient.java:126)
+	at com.yao.learn.Main.getCityId(Main.java:220)
+	at com.yao.learn.Main.run(Main.java:146)
+	at com.yao.learn.Main.runMain(Main.java:90)
+	at com.yao.learn.Main.main(Main.java:63)
+16:43:21.252 [main] ERROR ERROR - 程序出错退出
+java.lang.NullPointerException: Cannot invoke "String.length()" because "s" is null
+	at java.base/java.net.URLEncoder.encode(URLEncoder.java:223)
+	at com.yao.learn.WeatherApiClient.buildRequestUrl(WeatherApiClient.java:126)
+	at com.yao.learn.Main.getCityId(Main.java:220)
+	at com.yao.learn.Main.run(Main.java:146)
+	at com.yao.learn.Main.runMain(Main.java:90)
+	at com.yao.learn.Main.main(Main.java:63)
+16:47:23.907 [main] ERROR ERROR - 参数错误
+java.lang.IllegalArgumentException: 无效的国家名称
+	at com.yao.learn.WeatherApiClient.buildRequestUrl(WeatherApiClient.java:121)
+	at com.yao.learn.Main.getCityId(Main.java:220)
+	at com.yao.learn.Main.run(Main.java:146)
+	at com.yao.learn.Main.runMain(Main.java:90)
+	at com.yao.learn.Main.main(Main.java:63)
+16:49:31.689 [main] ERROR ERROR - 参数名称不存在或国家查询暂不支持
+java.lang.IllegalArgumentException: 无效的国家名称
+	at com.yao.learn.WeatherApiClient.buildRequestUrl(WeatherApiClient.java:121)
+	at com.yao.learn.Main.getCityId(Main.java:220)
+	at com.yao.learn.Main.run(Main.java:146)
+	at com.yao.learn.Main.runMain(Main.java:90)
+	at com.yao.learn.Main.main(Main.java:63)

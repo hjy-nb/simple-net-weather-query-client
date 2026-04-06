@@ -24,10 +24,11 @@ public class WeatherApiClient {
     private final int retryCount;                     // 重试次数   可执行请求次数
     private final int retryDelay;                  // 重试延迟(ms)  每次重新执行请求的延迟时间
     private final Map<String, String> defaultHeaders;     // 默认请求头
-    private final RequestConfig requestConfig;            // 请求配置
     private final AtomicInteger requestCounter;           // 请求计数器
+    private final WeatherResponseParser parser;
+    private final Map<String, String> countryConvert;     //文档示例格式,将搜索范围限定在指定的国家或地区内。
 
-    public WeatherApiClient(String apiKey, String baseUrl, WeatherHttpClientBuilder builder) {
+    public WeatherApiClient(String apiKey, String baseUrl, WeatherHttpClientBuilder builder){
         BUSINESS_LOGGER.info("开始创建WeatherApiClient实例");
 
         List<String> errorMessages = getErrorMessages(apiKey, baseUrl, builder);
@@ -41,11 +42,18 @@ public class WeatherApiClient {
             this.apiKey = apiKey;
             this.baseUrl = baseUrl;
             this.httpClient = builder.build();
-            this.requestConfig = builder.createRequestConfig();
             this.retryCount = LoadConfig.getPropertyInt("httpclient.retry.count", 3);
             this.retryDelay = LoadConfig.getPropertyInt("httpclient.retry.delay", 1000);
             this.requestCounter = new AtomicInteger(0);
             this.defaultHeaders = new HashMap<>();
+            JsonParserHelper parserHelper = new JsonParserHelper();
+            this.parser = new WeatherResponseParser(parserHelper);
+
+            countryConvert = Map.of("中国","cn",
+                    "美国","us",
+                    "英国","gb",
+                    "日本","jp",
+                    "韩国","kr");
 
             BUSINESS_LOGGER.info("创建WeatherApiClient实例成功 - API密钥:{}, 基础URL:{},",
                     apiKey, baseUrl);
@@ -102,20 +110,20 @@ public class WeatherApiClient {
         if(!isValidCityName(city)){
             throw new IllegalArgumentException("无效的城市名称");
         }
-         return String.format("%s?location=%s&key=%s&unit=c&lang=zh", baseUrl, URLEncoder.encode(city, StandardCharsets.UTF_8), apiKey);
+         return String.format("%s?location=%s&key=%s&lang=zh", baseUrl, URLEncoder.encode(city, StandardCharsets.UTF_8),apiKey);
     }
 
     public String buildRequestUrl(String city, String countryName) {
         if (!isValidCityName(city)) {
             throw new IllegalArgumentException("无效的城市名称");
         }
-        if (!isValidCountryName(countryName)) {
+        if (!isValidCountryName(countryName) || !countryConvert.containsKey(countryName)) {
             throw new IllegalArgumentException("无效的国家名称");
         }
-        return String.format("%s?location=%s,%s&key=%s&unit=c&lang=zh",
+        return String.format("%s?location=%s&range=%s&key=%s&lang=zh",
                 baseUrl,
                 URLEncoder.encode(city, StandardCharsets.UTF_8),
-                URLEncoder.encode(countryName, StandardCharsets.UTF_8),
+                URLEncoder.encode(countryConvert.get(countryName), StandardCharsets.UTF_8),
                 apiKey);
     }
 
@@ -140,7 +148,6 @@ public class WeatherApiClient {
     }
 
     //执行GET请求，并返回响应体
-    @SuppressWarnings("BusyWait")
     public String executeGetRequest(String url) throws IOException {
         BUSINESS_LOGGER.info("开始执行GET请求 - URL:{}", url);
 
@@ -154,9 +161,8 @@ public class WeatherApiClient {
                 return httpClient.execute(request, response -> {
                     int statusCode = response.getCode();
                     if (statusCode == 200) {
-                        final long endTime = System.currentTimeMillis();
 
-                        BUSINESS_LOGGER.info("请求成功 - 响应状态码:{}, -响应平均时间:{}", statusCode,getAverageRequestTime(endTime-startTime,count));
+                        BUSINESS_LOGGER.info("请求成功 - 响应状态码:{}, -响应平均时间:{}", statusCode,getAverageRequestTime(startTime,count));
 
                         return EntityUtils.toString(response.getEntity(), StandardCharsets.UTF_8);
                     } else {
@@ -192,27 +198,35 @@ public class WeatherApiClient {
     }
 
     //获取平均请求时间
-    public double getAverageRequestTime(long time, int count) {
+    public double getAverageRequestTime(long startTime, int count) {
+        long time = System.currentTimeMillis() - startTime;
+
         return (double)time / count;
     }
 
     //查询城市天气
-    public WeatherResponse queryWeather(String city) throws IOException{
-        String url = buildRequestUrl(city);
 
-        String responseBody = executeGetRequest(url);
+          //查询城市天气公共操作提取
+    public WeatherResponse sonQueryWeather(String url) throws Exception {
+        String responseBody = executeGetRequest(url);     //执行GET请求并返回响应体
 
-        //return new WeatherResponse(responseBody);
-        return null;
+        if(responseBody==null){
+            ERROR_LOGGER.error("请求失败，响应体为空");
+            throw new IOException("请求失败，响应体为空");
+        }
+
+        return parser.parse(responseBody);
+    }
+    public WeatherResponse queryWeather(String city) throws Exception {
+        String url = buildRequestUrl(city);       //构建请求URL
+
+        return sonQueryWeather(url);
     }
 
-    public WeatherResponse queryWeather(String city, String countryName) throws IOException {
+    public WeatherResponse queryWeather(String city, String countryName) throws Exception {
         String url = buildRequestUrl(city, countryName);
 
-        String responseBody = executeGetRequest(url);
-
-        //return new WeatherResponse(responseBody);
-        return null;
+        return sonQueryWeather(url);
     }
 
     //关闭HttpClient
@@ -246,7 +260,7 @@ public class WeatherApiClient {
         return defaultHeaders;
     }
 
-    public RequestConfig getRequestConfig() {
-        return requestConfig;
+    public WeatherResponseParser getParser() {
+        return parser;
     }
 }

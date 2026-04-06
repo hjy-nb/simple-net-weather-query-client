@@ -31,10 +31,18 @@
     <disruptor.version>3.4.4</disruptor.version>
     <dto.version>1.0-SNAPSHOT</dto.version>
     <parser.version>1.0-SNAPSHOT</parser.version>
+    <clients.version>1.0-SNAPSHOT</clients.version>
   </properties>
 
   <dependencyManagement>
     <dependencies>
+      <dependency>
+        <groupId>com.yao.learn</groupId>
+        <artifactId>clients</artifactId>
+        <version>${clients.version}</version>
+        <scope>compile</scope>
+      </dependency>
+
       <dependency>
         <groupId>com.yao.learn</groupId>
         <artifactId>parser</artifactId>
